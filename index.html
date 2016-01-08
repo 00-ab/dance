@@ -1,0 +1,33 @@
+<!doctype HTML>
+
+<head>
+	<script src="./rules/dr_default.js"></script>
+	<script src="./tools/atools.js"></script>
+	<script src="./stories/ds_proto.js"></script>
+	<script>
+		function display( ){
+			var p1 = [ 10, 10, 10, 10 ];
+			var p2 = [ 10, 10, 10, 10 ];
+			var dance = setStage( p1, p2, 1);
+			triStreamDisplay( "stage", dance );
+		};
+	</script>
+	<style>
+		#out1 {
+			float: left;
+			color: blue;
+		}
+		#out0 {
+			float: left;
+			color: black;
+		}
+		#out2 {
+			float: left;
+			color: red;
+		}
+	</style>
+</head>
+
+<body onload="display()">
+	<div id="stage"></div>
+</body>

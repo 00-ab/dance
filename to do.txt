@@ -1,0 +1,2 @@
+add clear() to atools.js
+find out how to do three divs horizontally
